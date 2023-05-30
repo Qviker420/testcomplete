@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{241C4C77-E820-48AC-BBEA-34C4F37A746A}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45076.4165972222" objectName="Aliases.Orders.wndWindowsForms10Window8app0141b42ar6ad1" objectLeft="0" objectTop="0" objectRight="608" objectBottom="408" clickPointX="-1" clickPointY="-1" imageFileName="tcvi6252156119560.png" storageFileName="tcvi6252156119560.7z" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45076.4166087963" objectName="Aliases.Orders.dlgConfirmation.btnNo" objectLeft="113" objectTop="114" objectRight="188" objectBottom="137" clickPointX="165" clickPointY="121" imageFileName="tcvi6253984119561.png" storageFileName="tcvi6253984119561.7z" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

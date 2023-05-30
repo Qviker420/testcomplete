@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Orders_KDT" key="{FDBA772B-8D6F-41C1-9924-A5DD7D4A3FCD}" path="Orders_KDT.tcKDTest" />
+		<child name="open_order" key="{19EFB5B4-C673-4992-A7D9-53019D765762}" path="open_order.tcKDTest" />
+		<child name="add_order" key="{D9BE4101-B125-41EE-942D-99FAC90AD198}" path="add_order.tcKDTest" />
+		<child name="close_app" key="{241C4C77-E820-48AC-BBEA-34C4F37A746A}" path="close_app.tcKDTest" />
+	</children>
+</Root>
