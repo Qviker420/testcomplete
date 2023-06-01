@@ -13,6 +13,7 @@ let dlgConfirmation = order.dlgConfirmation;
 let btnYes = dlgConfirmation.btnYes;
 
 
+
 var user_data = {
   name: "Test Name",
   city: "Test City",
@@ -63,8 +64,10 @@ function delete_orders()
   btnYes.ClickButton();
 }
 
+//esaa main methodi
 function Test1()
 {
+   Log.Message(my_class.a);
    open();
    fill_order(user_data.name, user_data.street, user_data.city, user_data.zip, user_data.cardNo, user_data.state);
    fill_order(user_data_second.name, user_data_second.street, user_data_second.city, user_data_second.zip, user_data_second.cardNo, user_data_second.state);

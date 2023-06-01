@@ -2,21 +2,51 @@
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
 		<child name="Script" key="{C3E6D1B6-D007-44AD-BE64-46341F1D2EEA}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
-		<child name="TestedApps" key="{0AD5C583-EAA7-499A-A1C5-9C37147B8270}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 		<child name="NameMapping" key="{C54F2C63-2A05-495D-B157-4F16AE147E5E}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="KeywordTests" key="{712096B6-A87E-4B95-9D79-54ED4DA4DCF5}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="TestedApps" key="{50137AF3-8E41-4FCB-A895-1A8ACC2CB33D}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="ImageRepository" key="{2C4FBFC8-25A1-4100-B4EA-A0C3689B3856}" type="Image Repository" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" pluginName="" path="ImageRepository\ImageRepository.tcIR" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{806ADC22-D9F2-4653-B286-F5E3DA1C40FA}" version="14">
 		<children>
 			<testItem name="ProjectTestItem1" key="{F60086AC-B6A9-482D-A369-F680474A8343}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FDBA772B-8D6F-41C1-9924-A5DD7D4A3FCD}" count="1" timeout="0" stopOnError="0" stopOnException="0" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{B29C2BAC-A004-4FB2-8794-FE5F1700C646}" />
+	<variables key="{B29C2BAC-A004-4FB2-8794-FE5F1700C646}">
+		<data Version="4">
+			<Items>
+				<Variable Name="name" Type="String" Local="False">
+					<DefValue StrValue="Test" />
+				</Variable>
+				<Variable Name="street" Type="String" Local="False">
+					<DefValue StrValue="Test" />
+				</Variable>
+				<Variable Name="city" Type="String" Local="False">
+					<DefValue StrValue="Test" />
+				</Variable>
+				<Variable Name="price" Type="Integer" Local="False">
+					<DefValue IntValue="123" />
+				</Variable>
+				<Variable Name="state" Type="String" Local="False">
+					<DefValue StrValue="OH" />
+				</Variable>
+				<Variable Name="zip" Type="Integer" Local="False">
+					<DefValue IntValue="121" />
+				</Variable>
+				<Variable Name="card_no" Type="Integer" Local="False">
+					<DefValue IntValue="1241234123" />
+				</Variable>
+				<Variable Name="discount" Type="String" Local="False">
+					<DefValue StrValue="25%" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{A970F198-971B-4798-B305-E5CC664A7D78}">
 		<settingsVersion value="15.51" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
