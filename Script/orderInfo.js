@@ -26,6 +26,7 @@
   
   check_order_info()
   {
+    aqObject.CheckProperty(this.qntText, "wText", cmpEqual, Project.Variables.Quantity);
     aqObject.CheckProperty(this.priceText, "wText", cmpEqual, Project.Variables.price);
     this.okButton.Click();
   }
