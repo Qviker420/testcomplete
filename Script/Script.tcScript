@@ -9,8 +9,15 @@
 			<child name="ImageRepositoryTest" key="{BC2EFBF7-3F29-417C-A7AE-23B6ECC15178}" path="ImageRepositoryTest.js" />
 		</folder>
 		<folder name="DesignPatternHW">
-			<child name="testOrdes" key="{8D56EECB-61DC-4AA8-BDA8-B4F334A019B0}" path="testOrdes.js" />
-			<child name="testLass" key="{EE896DC8-A7B2-47D6-8109-723B828ED648}" path="testLass.js" />
+			<folder name="main">
+				<child name="mainPage" key="{93BD300C-DA3A-488C-B25F-D8059E0F12AC}" path="mainPage.js" />
+				<child name="orderInfo" key="{6887304B-C725-4937-8344-F62EAB6EB791}" path="orderInfo.js" />
+			</folder>
+			<folder name="test">
+				<child name="testCases" key="{9CF4497E-75E8-4AC1-A32F-4B75F4F70963}" path="testCases.js" />
+				<child name="runners" key="{0138F0A9-9737-40E6-8E9F-124B2643E7AE}" path="runners.js" />
+			</folder>
+			<child name="testOrdesWithoutPOM" key="{8D56EECB-61DC-4AA8-BDA8-B4F334A019B0}" path="testOrdesWithoutPOM.js" />
 		</folder>
 		<child name="Orders_JavaScript" key="{9FAB731C-0B52-43F6-9A01-9CA081C327C7}" path="Orders_JavaScript.js" />
 	</children>
