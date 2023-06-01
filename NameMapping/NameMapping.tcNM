@@ -379,6 +379,36 @@
 										<Value Value="WindowsForms10.Window.8.app.0.141b42a_r6_ad1" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="Item" Key="{670CB949-EB7F-4D2F-A281-76511FE898FF}">
+										<Image FileName="-1593349438" Left="8" Top="51" Right="600" Bottom="79" />
+										<TypeInfo Item0="{D613F831-D290-4BC0-97A1-CCD026FD0871}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WindowsForms10.ToolbarWindow32.app.0.141b42a_r6_ad1" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="Item2" Key="{48C4BF57-5DDB-4618-B049-B88B2CBE1700}">
+										<Image FileName="811173806" Left="8" Top="79" Right="600" Bottom="378" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WindowsForms10.SysListView32.app.0.141b42a_r6_ad1" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Header" Key="{2437E4CE-C028-40D7-AE5D-916FDD68F3AB}">
+												<Image FileName="811173806" Left="10" Top="81" Right="598" Bottom="105" />
+												<TypeInfo Item0="{4FFA8AB3-AB15-43C8-ABCA-CC020B7CD15B}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysHeader32" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
 							</Child>
 							<Child Name="wndOrder" Key="{D93C6043-B74D-440E-A025-8FFFCE5A88C0}">
 								<Image FileName="-1968545559" Left="0" Top="0" Right="488" Bottom="478" />
@@ -777,7 +807,12 @@
 				</Child>
 				<Child Name="btnSave" Owner="{DBF1C3E2-2858-446E-B610-D435863293E7}" />
 			</Child>
-			<Child Name="wndWindowsForms10Window8app0141b42ar6ad1" Owner="{27354902-D965-4C76-AC86-39A0AB3BD526}" />
+			<Child Name="wndWindowsForms10Window8app0141b42ar6ad1" Owner="{27354902-D965-4C76-AC86-39A0AB3BD526}">
+				<Child Name="Item" Owner="{670CB949-EB7F-4D2F-A281-76511FE898FF}" />
+				<Child Name="Item2" Owner="{48C4BF57-5DDB-4618-B049-B88B2CBE1700}">
+					<Child Name="Header" Owner="{2437E4CE-C028-40D7-AE5D-916FDD68F3AB}" />
+				</Child>
+			</Child>
 			<Child Name="wndOrder" Owner="{D93C6043-B74D-440E-A025-8FFFCE5A88C0}">
 				<Child Name="WindowsForms10Window8app0141b42ar6ad1" Owner="{5B3843BC-5122-4A59-88D0-D7BA647DAB58}">
 					<Child Name="WindowsForms10Window8app0141b42ar6ad1" Owner="{32DF7165-5528-4B31-83C0-CB266A82ED3C}">

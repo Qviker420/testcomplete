@@ -14,13 +14,10 @@ let listView = mainForm.OrdersView;
 let dlgConfirmation = order.dlgConfirmation;
 let btnYes = dlgConfirmation.btnYes;
 
-//var x = require('testLass');
 
-//Design Patterni ar gamovidia, ar importdeba sxva classi require(it)
 function open_orders()
 {
   TestedApps.Orders.Run(1,true);
-  
 }
 var testQuantity = "Test"
 function set_info()
@@ -76,9 +73,7 @@ function check_info()
 function run()
 {
   open_orders();
-  
   add_order_rClick();
   add_order_button();
   add_order_from_top();
 }
-
