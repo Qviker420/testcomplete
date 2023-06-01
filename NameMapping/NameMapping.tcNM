@@ -537,6 +537,15 @@
 													</Child>
 												</Children>
 											</Child>
+											<Child Name="Discount" Key="{542F8C70-F67F-4464-9842-8D668DB3C067}">
+												<Image FileName="1367480932" Left="387" Top="82" Right="467" Bottom="102" />
+												<TypeInfo Item0="{886F2378-B9BE-4802-BDC2-126D2398EFCA}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="Discount" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="btnOK" Key="{A10394EB-3C81-4799-87D1-91860901BFBE}">
@@ -783,6 +792,7 @@
 					<Child Name="groupBox1" Owner="{2CFB188E-D50A-41F1-BB40-8C8613A29946}">
 						<Child Name="Total" Owner="{E52481F5-AE33-48D2-9C59-59A7DE5DFFC2}" />
 					</Child>
+					<Child Name="Discount" Owner="{542F8C70-F67F-4464-9842-8D668DB3C067}" />
 				</Child>
 				<Child Name="btnOK" Owner="{A10394EB-3C81-4799-87D1-91860901BFBE}" />
 			</Child>

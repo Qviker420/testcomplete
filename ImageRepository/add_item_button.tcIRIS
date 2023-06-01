@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{D1F222D0-F848-4F78-87A8-35EEFEB9B9DF}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="add_item_button" />
+	<testData />
+	<data>
+		<item caption="add_order" moniker="{3287FFF3-8033-4DE9-9CAE-4CFD783AF169}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\add_order.png" initialHash="7C954FC8" selectionLeft="736" selectionTop="369" selectionWidth="31" selectionHeight="24" initialLeft="736" initialTop="369" initialWidth="31" initialHeight="24" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+	</data>
+</Root>

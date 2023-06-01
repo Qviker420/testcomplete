@@ -6,7 +6,11 @@
 		</folder>
 		<folder name="test">
 			<child name="firstrun" key="{07782968-36DB-466E-9AB2-47D18271868D}" path="firstrun.js" />
-			<child name="test" key="{FB5DBEA4-439E-48F7-BC91-C3394031FFAF}" path="test.js" />
+			<child name="ImageRepositoryTest" key="{BC2EFBF7-3F29-417C-A7AE-23B6ECC15178}" path="ImageRepositoryTest.js" />
+		</folder>
+		<folder name="DesignPatternHW">
+			<child name="testOrdes" key="{8D56EECB-61DC-4AA8-BDA8-B4F334A019B0}" path="testOrdes.js" />
+			<child name="testLass" key="{EE896DC8-A7B2-47D6-8109-723B828ED648}" path="testLass.js" />
 		</folder>
 		<child name="Orders_JavaScript" key="{9FAB731C-0B52-43F6-9A01-9CA081C327C7}" path="Orders_JavaScript.js" />
 	</children>
