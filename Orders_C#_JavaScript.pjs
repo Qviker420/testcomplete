@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{36838534-6A96-4F99-856A-A99135A1BAC3}">
+	<children>
+		<child name="Orders_C#_JavaScript" key="{B3135AD4-2294-42D9-A842-CD1DC950CE6E}" path="Orders_C#_JavaScript.mds" />
+	</children>
+	<testItems key="{2892605A-963B-4A62-9564-B7AAA274EB57}">
+		<children>
+			<testItem key="{B3135AD4-2294-42D9-A842-CD1DC950CE6E}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{44899CBD-44EF-4479-942F-27B22C1191EA}" />
+	<analysis key="{2FB068B6-1E38-406F-8C2B-E81EAA3F88BE}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

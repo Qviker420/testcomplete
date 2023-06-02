@@ -19,6 +19,16 @@
 			</folder>
 			<child name="testOrdesWithoutPOM" key="{8D56EECB-61DC-4AA8-BDA8-B4F334A019B0}" path="testOrdesWithoutPOM.js" />
 		</folder>
+		<folder name="tessComplete_JS">
+			<folder name="Test">
+				<folder name="runners" />
+			</folder>
+			<folder name="Main">
+				<child name="sum_function" key="{6B2E94DC-BA35-4E86-86E5-598291C1AA82}" path="sum_function.js" />
+				<child name="date_pattern" key="{C0143F57-E8FF-444F-86F9-276091DDD30A}" path="date_pattern.js" />
+				<child name="events" key="{AE7370DB-58F7-44F4-B318-4F187F5C6705}" path="events.js" />
+			</folder>
+		</folder>
 		<child name="Orders_JavaScript" key="{9FAB731C-0B52-43F6-9A01-9CA081C327C7}" path="Orders_JavaScript.js" />
 	</children>
 </Root>

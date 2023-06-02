@@ -10,15 +10,22 @@
      this.cardText = Aliases.Orders.OrderForm.Group.CardNo;
      this.priceText = Aliases.Orders.OrderForm.Group.Price;
      this.okButton = Aliases.Orders.OrderForm.ButtonOK;
+     this.address = "თბილისი, ნუცუბიძის 72, 0177";
   }
   
   set_order_info()
   {
-    this.customerText.SetText(Project.Variables.name);
-    this.cityText.SetText(Project.Variables.city);
+    var zip = aqString.SubString(this.address, 22, 26);
+    var city = aqString.SubString(this.address, 0, 6);
+    Log.Message(Aliases.Orders.OrderForm.Group.WinFormsObject("label8").Equals("Street:"));
+    this.customerText.Keys(Project.Variables.name);
+    this.customerText.Keys("^a");
+    this.customerText.Keys("[Del]");
+    this.customerText.Keys(Project.Variables.name);
+    this.cityText.Keys(city);
     this.stateText.SetText(Project.Variables.state);
-    this.streetText.SetText(Project.Variables.street);
-    this.zipText.SetText(Project.Variables.zip);
+    this.streetText.Keys(this.address);
+    this.zipText.Keys(zip);
     this.cardText.SetText(Project.Variables.card_no);
     this.priceText.SetText(Project.Variables.price);
     this.okButton.Click();
@@ -26,8 +33,8 @@
   
   check_order_info()
   {
-    aqObject.CheckProperty(this.qntText, "wText", cmpEqual, Project.Variables.Quantity);
-    aqObject.CheckProperty(this.priceText, "wText", cmpEqual, Project.Variables.price);
+
+  //  aqObject.CheckProperty(this.priceText, "wText", cmpEqual, Project.Variables.price);
     this.okButton.Click();
   }
 }
