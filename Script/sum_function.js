@@ -27,5 +27,5 @@
 
 function run()
 {
-  Log.Message(sum(5, 6)); 
+  Log.Message(sum(531, 65)); 
 }
