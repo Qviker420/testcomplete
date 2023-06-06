@@ -516,6 +516,51 @@
 				<Prp name="relpath" type="S" value="6_3_2023_3_12 AM_08_685\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0055">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45080.3203910185"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BB1583B5-9FE1-4292-8533-93F77C708823}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [sum_function\run]"/>
+				<Prp name="relpath" type="S" value="6_3_2023_7_41 AM_21_784\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0056">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45080.3215378819"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{742C800B-87D3-4250-8EDC-CD237EDAFE14}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [date_pattern\date]"/>
+				<Prp name="relpath" type="S" value="6_3_2023_7_43 AM_00_873\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0057">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45080.3233380787"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{791F7019-CA49-4B8B-9C75-95BBF67D8C99}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [events\run]"/>
+				<Prp name="relpath" type="S" value="6_3_2023_7_45 AM_36_410\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0058">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45080.324846875"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DF176109-4A7F-4AC1-83C4-8573284F24C2}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [runners\Test]"/>
+				<Prp name="relpath" type="S" value="6_3_2023_7_47 AM_46_771\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0059">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45080.3251580208"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0D7A2A75-4B3B-4967-B7BF-1419B2542E56}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [runners\Test]"/>
+				<Prp name="relpath" type="S" value="6_3_2023_7_48 AM_13_653\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

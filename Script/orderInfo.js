@@ -17,10 +17,9 @@
   {
     var zip = aqString.SubString(this.address, 22, 26);
     var city = aqString.SubString(this.address, 0, 6);
-    Log.Message(Aliases.Orders.OrderForm.Group.WinFormsObject("label8").Equals("Street:"));
+    Aliases.Orders.OrderForm.Group.WinFormsObject("label8").eqauls("Street:");
     this.customerText.Keys(Project.Variables.name);
-    this.customerText.Keys("^a");
-    this.customerText.Keys("[Del]");
+    this.customerText.Keys("^a[Del]");
     this.customerText.Keys(Project.Variables.name);
     this.cityText.Keys(city);
     this.stateText.SetText(Project.Variables.state);
