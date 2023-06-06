@@ -29,6 +29,12 @@
 				<child name="events" key="{AE7370DB-58F7-44F4-B318-4F187F5C6705}" path="events.js" />
 			</folder>
 		</folder>
+		<folder name="Homework_last">
+			<child name="ApiTest" key="{562EAC11-A919-4EEB-ADF0-0BB6582953E6}" path="ApiTest.js" />
+			<child name="apiGet" key="{F2BD1A61-A98E-473E-BA5D-99AE6391996A}" path="apiGet.js" />
+			<child name="randomizer" key="{CFB20D28-3EA1-4016-BC6F-8DF0EB8EDF76}" path="randomizer.js" />
+			<child name="radioButtons" key="{9E8B2BED-B148-49E3-BA17-1BA4B24D87FC}" path="radioButtons.js" />
+		</folder>
 		<child name="Orders_JavaScript" key="{9FAB731C-0B52-43F6-9A01-9CA081C327C7}" path="Orders_JavaScript.js" />
 	</children>
 </Root>

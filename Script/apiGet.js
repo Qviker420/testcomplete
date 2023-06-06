@@ -1,0 +1,25 @@
+﻿function get_key()
+{
+  var link = "https://www.boredapi.com/api/activity?";
+  var request = aqHttp.CreateGetRequest(link);
+  var response = request.Send();
+
+  var parse = JSON.parse(response);
+  
+  return parse.key
+}
+
+function get_activity()
+{
+  var link = "https://www.boredapi.com/api/activity?type=music";
+  var request = aqHttp.CreateGetRequest(link);
+  var response = request.Send();
+  
+  var parse = JSON.parse(response);
+
+  return parse.activity
+}
+
+module.exports.get_key = get_key;
+
+module.exports.get_activity = get_activity;
